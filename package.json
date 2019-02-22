@@ -22,5 +22,8 @@
   "homepage": "https://github.com/DavinaLeong/learn-jest#readme",
   "devDependencies": {
     "jest": "^24.1.0"
+  },
+  "dependencies": {
+    "axios": "^0.18.0"
   }
 }

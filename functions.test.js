@@ -49,3 +49,18 @@ test("There is no 'i' in team", () => {
 test("'Admin' should be in usernames", () => {
   expect(functions.users).toContain('Admin');
 });
+
+
+// Working with async data
+// test("User fetched name should be 'Leanne Graham'", () => {
+//   expect.assertions(1);
+//   return functions.fetchUser().then(user => {
+//     expect(user.name).toEqual('Leanne Graham');
+//   });
+// });
+
+test("User fetched name should be 'Leanne Graham'", async () => {
+  expect.assertions(1);
+  const user = await functions.fetchUser();
+  expect(user.name).toEqual('Leanne Graham');
+});
