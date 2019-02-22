@@ -1,0 +1,26 @@
+{
+  "name": "learn-jest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "learn",
+    "jest",
+    "unit testing",
+    "testing",
+    "javascript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavinaLeong/learn-jest.git"
+  },
+  "author": "Davina Leong <davina.leong@outlook.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/DavinaLeong/learn-jest#readme",
+  "devDependencies": {
+    "jest": "^24.1.0"
+  }
+}
